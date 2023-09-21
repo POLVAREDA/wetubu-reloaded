@@ -1,0 +1,27 @@
+{
+  "name": "wetubu",
+  "version": "1.0.0",
+  "description": "The best way to watch videos.",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/POLVAREDA/wetubu-reloaded.git"
+  },
+  "author": "soohyeon<kiziwa@naver.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/POLVAREDA/wetubu-reloaded/issues"
+  },
+  "homepage": "https://github.com/POLVAREDA/wetubu-reloaded#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.22.20",
+    "nodemon": "^3.0.1"
+  }
+}
